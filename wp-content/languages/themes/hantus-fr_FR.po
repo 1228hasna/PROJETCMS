@@ -1,0 +1,581 @@
+# Translation of Themes - Hantus in French (France)
+# This file is distributed under the same license as the Themes - Hantus package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-24 09:57:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Hantus\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Hantus is an elegant and modern WordPress theme for spa and wellness centers but it is also very easy to customize it for other business like hairdressing, ayurvedic, manicures, pedicures, makeup, mashups, nails, detox, tanning, male grooming, facials, waxing, spa and body treatments, massages or other Hair & Barber related services. View the demo of Hantus Pro https://www.nayrathemes.com/demo/pro/?theme=hantus"
+msgstr "Hantus est un thème WordPress élégant et moderne pour les stations thermales et les centres de bien-être, mais il est également très facile de le personnaliser pour d’autres activités comme la coiffure, l’ayurvéda, les manucures, les pédicures, le maquillage, les mashups, les ongles, la désintoxication, le bronzage, les soins pour hommes, les soins du visage, l’épilation à la cire, les traitements de spa et du corps, les massages ou d’autres services liés à la coiffure. Voir la démo de Hantus Pro https://www.nayrathemes.com/demo/pro/?theme=hantus"
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Hantus"
+msgstr "Hantus"
+
+#: inc/customize/hantus-blog.php:96
+msgid "Select number of Posts"
+msgstr "Sélectionnez le nombre d’articles"
+
+#: inc/customize/hantus-breadcrumb.php:41
+msgid "Hide/Show breadcrumbs"
+msgstr "Masquer/Afficher le fil d’Ariane"
+
+#: inc/sidebar/sidebar.php:20
+msgid "Primary widget area"
+msgstr "Zone principale de widgets"
+
+#. Template Name of the theme
+msgid "Default homepage"
+msgstr "Page d’accueil par défaut"
+
+#: 404.php:20
+msgid "Something happened..."
+msgstr "Quelque chose s’est passé…"
+
+#: inc/customize/hantus-premium.php:36
+msgid "Show Some Love"
+msgstr "Afficher un peu d’amour"
+
+#: inc/customize/hantus-premium.php:32
+msgid "Free Vs Pro"
+msgstr "Gratuit Vs Pro"
+
+#: inc/customize/hantus-premium.php:30
+msgid "Get Support"
+msgstr "Obtenir de l’aide"
+
+#: inc/customize/hantus-premium.php:28
+msgid "View Documentation"
+msgstr "Voir la documentation"
+
+#: woocommerce/cart/mini-cart.php:77
+msgid "No products in the cart."
+msgstr "Aucun article dans le panier."
+
+#: woocommerce/cart/mini-cart.php:73
+msgid "Check Out"
+msgstr "Commande"
+
+#: woocommerce/cart/mini-cart.php:72
+msgid "View Cart"
+msgstr "Voir le panier"
+
+#: woocommerce/cart/mini-cart.php:69
+msgid "Sub Total"
+msgstr "Sous-total"
+
+#: woocommerce/cart/mini-cart.php:52
+msgid "Remove this item"
+msgstr "Retirer cet élément"
+
+#: woocommerce/content-product.php:40
+msgid "out of 5"
+msgstr "sur 5"
+
+#: woocommerce/content-product.php:40
+msgid "Rated %s out of 5"
+msgstr "Noté %s sur 5"
+
+#: woocommerce/content-product.php:30
+msgid "Sale!"
+msgstr "Promo !"
+
+#: inc/customize/hantus-premium.php:12 inc/customize/hantus-premium.php:34
+msgid "Upgrade to Pro"
+msgstr "Mettre à jour vers la version Pro"
+
+#: inc/extras.php:79 template-parts/sections/hantus-navigation.php:92
+#: template-parts/sections/hantus-navigation.php:122
+msgid "0"
+msgstr "0"
+
+#: template-parts/sections/hantus-navigation.php:182
+msgid "Your cart"
+msgstr "Votre panier"
+
+#: footer.php:35
+msgid "<a href=\"https://www.nayrathemes.com/\">Hantus WordPress Theme</a>"
+msgstr "<a href=\"https://www.nayrathemes.com/\">Hantus thème WordPress</a>"
+
+#: inc/customize/hantus-footer-section.php:47
+msgid "Copyright &copy; [current_year] [site_title] | Powered by [theme_author]"
+msgstr "Copyright &copy; [current_year] [site_title] | Propulsé par [theme_author]"
+
+#: inc/extras.php:775
+msgid "Get started with Hantus"
+msgstr "Démarrer avec Hantus"
+
+#: inc/extras.php:773
+msgid "Install and activate <strong>Clever Fox</strong> plugin for taking full advantage of all the features this theme has to offer."
+msgstr "Installez et activez l’extension <strong>Clever Fox</strong> pour tirer pleinement avantage de toutes les fonctionnalités que ce thème a à offrir. "
+
+#. translators: 1: welcome page link starting html tag, 2: welcome page link
+#. ending html tag.
+#: inc/extras.php:769
+msgid "Welcome! Thank you for choosing %1$s!"
+msgstr "Bienvenue ! Merci d’avoir choisi %1$s !"
+
+#: inc/extras.php:762
+msgid "Theme Screenshot"
+msgstr "Captures d’écran du thème"
+
+#: header.php:17
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:675
+#: inc/customizer-repeater/class/customizer-repeater-control.php:708
+msgid "Add Icon"
+msgstr "Ajouter une icône"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:670
+#: inc/customizer-repeater/class/customizer-repeater-control.php:700
+msgid "Remove Icon"
+msgstr "Supprimer l’icône"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:653
+msgid "Social icons"
+msgstr "Icônes sociaux"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:645
+msgid "None"
+msgstr "Aucun"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:640
+msgid "Image type"
+msgstr "Type d’image"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:629
+msgid "Center"
+msgstr "Centre"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:625
+msgid "Right"
+msgstr "Droite"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:621
+msgid "Left"
+msgstr "Gauche"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:617
+msgid "Slide Align"
+msgstr "Alignement des diapo"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:609
+msgid "Upload Image"
+msgstr "Téléverser une image"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:606
+#: inc/customizer-repeater/class/customizer-repeater-control.php:644
+msgid "Image"
+msgstr "Image"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:571
+msgid "http://fontawesome.io/icons/"
+msgstr "http://fontawesome.io/icons/"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:570
+msgid "Note: Some icons may not be displayed here. You can see the full list of icons at %1$s."
+msgstr "Note : Certaines icônes peuvent ne pas s’afficher ici. Vous pouvez voir la liste complète des icônes sur %1$s"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:554
+msgid "Open link in new tab:"
+msgstr "Ouvrir le lien dans un nouvel onglet :"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:517
+msgid "Delete field"
+msgstr "Supprimer le champ"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:309
+#: inc/customizer-repeater/class/customizer-repeater-control.php:461
+msgid "skill"
+msgstr "compétence"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:394
+msgid "Delete %s"
+msgstr "Supprimer %s"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:378
+#: inc/customizer-repeater/class/customizer-repeater-control.php:506
+msgid "Designation"
+msgstr "Désignation"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:370
+#: inc/customizer-repeater/class/customizer-repeater-control.php:497
+msgid "Shortcode"
+msgstr "Code court"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:360
+#: inc/customizer-repeater/class/customizer-repeater-control.php:424
+msgid "Color"
+msgstr "Couleur"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:317
+#: inc/customizer-repeater/class/customizer-repeater-control.php:468
+msgid "Button Text"
+msgstr "Texte du bouton"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:302
+#: inc/customizer-repeater/class/customizer-repeater-control.php:454
+msgid "Button Label"
+msgstr "Libellé du bouton"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:39
+msgid "Customizer Repeater"
+msgstr "Personnaliser le répéteur"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:34
+msgid "Add new field"
+msgstr "Ajouter un nouveau champ"
+
+#: inc/customize/hantus-blog.php:86
+msgid "3"
+msgstr "3"
+
+#: inc/customize/hantus-blog.php:73
+#: inc/customizer-repeater/class/customizer-repeater-control.php:295
+#: inc/customizer-repeater/class/customizer-repeater-control.php:447
+msgid "Description"
+msgstr "Description"
+
+#: inc/customize/hantus-blog.php:9
+msgid "Blog Section"
+msgstr "Section de blog"
+
+#: inc/customize/hantus-footer-section.php:119
+#: inc/customize/hantus-header-section.php:110
+#: inc/customizer-repeater/class/customizer-repeater-control.php:565
+#: inc/customizer-repeater/class/customizer-repeater-control.php:643
+msgid "Icon"
+msgstr "Icône"
+
+#: inc/customize/hantus-footer-section.php:118
+msgid "Add New Icon"
+msgstr "Ajouter une nouvelle icône"
+
+#: inc/customize/hantus-footer-section.php:75
+#: inc/customize/hantus-footer-section.php:116
+msgid "Payment Icon"
+msgstr "Icône de paiement"
+
+#: inc/customize/hantus-footer-section.php:18
+#: inc/customize/hantus-footer-section.php:60
+msgid "Copyright Content"
+msgstr "Contenu du droit d’auteur"
+
+#: inc/customize/hantus-footer-section.php:10
+msgid "Footer Section"
+msgstr "Section du pied de page"
+
+#: inc/customize/customizer_recommended_plugin.php:18
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: inc/customize/customizer_recommended_plugin.php:17
+msgid "Activate"
+msgstr "Activer"
+
+#: inc/customize/customizer_recommended_plugin.php:16
+msgid "Install and Activate"
+msgstr "Installer et activer"
+
+#: inc/customize/customizer_recommended_plugin.php:15
+msgid "Recommended Plugin"
+msgstr "Extension recommandée"
+
+#: inc/customize/customizer_recommended_plugin.php:14
+msgid "Recommended Actions"
+msgstr "Actions recommandées"
+
+#: inc/customize/customizer_recommended_plugin.php:10
+msgid "Install and activate <strong>cleverfox</strong> plugin for taking full advantage of all the features this theme has to offer."
+msgstr "Installez et activez l’extension <strong>cleverfox</strong> pour tirer pleinement avantage de toutes les fonctionnalités que ce thème a à offrir. "
+
+#: inc/customize/hantus-breadcrumb.php:68
+#: inc/customize/hantus-footer-section.php:147
+msgid "Background Image"
+msgstr "Image d’arrière-plan"
+
+#: inc/customize/hantus-breadcrumb.php:51
+#: inc/customize/hantus-footer-section.php:132
+msgid "Background"
+msgstr "Arrière-plan"
+
+#: inc/customize/hantus-breadcrumb.php:23
+msgid "Settings"
+msgstr "Réglages"
+
+#: inc/customize/hantus-breadcrumb.php:12
+msgid "Page Breadcrumb"
+msgstr "Fil d’Ariane de page"
+
+#: inc/customize/hantus-blog.php:30 inc/customize/hantus-footer-section.php:39
+#: inc/customize/hantus-footer-section.php:95
+#: inc/customize/hantus-header-section.php:41
+#: inc/customize/hantus-header-section.php:91
+#: inc/customize/hantus-header-section.php:197
+msgid "Hide / Show Section"
+msgstr "Masquer/Afficher la section"
+
+#: inc/customize/hantus-header-section.php:179
+msgid "Sticky Header"
+msgstr "En-tête fixe"
+
+#: inc/customize/hantus-header-section.php:166
+#: inc/customizer-repeater/class/customizer-repeater-control.php:328
+#: inc/customizer-repeater/class/customizer-repeater-control.php:478
+#: inc/customizer-repeater/class/customizer-repeater-control.php:667
+#: inc/customizer-repeater/class/customizer-repeater-control.php:689
+msgid "Link"
+msgstr "Lien"
+
+#: inc/customize/hantus-header-section.php:147
+#: inc/customizer-repeater/class/customizer-repeater-control.php:288
+#: inc/customizer-repeater/class/customizer-repeater-control.php:440
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+#: inc/customize/hantus-blog.php:53 inc/customize/hantus-header-section.php:128
+#: inc/customizer-repeater/class/customizer-repeater-control.php:280
+#: inc/customizer-repeater/class/customizer-repeater-control.php:432
+msgid "Title"
+msgstr "Titre"
+
+#: inc/customize/hantus-header-section.php:73
+msgid "Header Contact"
+msgstr "Contact d’en-tête"
+
+#: inc/customize/hantus-header-section.php:60
+msgid "Search Icon"
+msgstr "Icône de recherche"
+
+#: inc/customize/hantus-header-section.php:24
+msgid "Header Search"
+msgstr "Recherche d’en-tête"
+
+#: inc/customize/hantus-header-section.php:12
+msgid "Header Section"
+msgstr "Section d’en-tête"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:72
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:65
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Laisser un commentaire <span class=\"screen-reader-text\"> sur %s</span>"
+
+#: inc/template-tags.php:58
+msgid "Tagged %1$s"
+msgstr "Étiqueté %1$s"
+
+#: inc/template-tags.php:52
+msgid "Posted in %1$s"
+msgstr "Publié dans  %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:33
+msgctxt "post author"
+msgid "by %s"
+msgstr "par %s"
+
+#: inc/template-tags.php:28
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publié le %s"
+
+#: inc/customizer.php:23
+msgid "Homepage Sections"
+msgstr "Sections de page d’accueil"
+
+#: inc/sidebar/sidebar.php:28 inc/sidebar/sidebar.php:30
+msgid "Footer Widget Area"
+msgstr "Zone de widgets en pied de page"
+
+#: inc/sidebar/sidebar.php:18
+msgid "Sidebar Widget Area"
+msgstr "Zone de widget de colonne latérale"
+
+#: inc/customizer-notify/hantus-customizer-notify.php:114
+msgid "Activating"
+msgstr "Activation"
+
+#: inc/class-wp-bootstrap-navwalker.php:371
+msgid "Add a menu"
+msgstr "Ajouter un menu"
+
+#: inc/breadcrumb/breadcrumb.php:139
+msgid "Page"
+msgstr "Page"
+
+#: inc/breadcrumb/breadcrumb.php:134
+msgid "Error 404 "
+msgstr "Erreur 404"
+
+#: inc/breadcrumb/breadcrumb.php:130
+msgid "Article posted by "
+msgstr "Article publié par"
+
+#: inc/breadcrumb/breadcrumb.php:124
+msgid "Posts tagged "
+msgstr "Articles étiquetés"
+
+#: inc/breadcrumb/breadcrumb.php:32
+msgid "Search results for "
+msgstr "Résultats de recherche pour"
+
+#: inc/breadcrumb/breadcrumb.php:26
+msgid "Archive by category"
+msgstr "Archive par catégorie"
+
+#: 404.php:21 inc/breadcrumb/breadcrumb.php:6
+msgid "Home"
+msgstr "Accueil"
+
+#: inc/breadcrumb/breadcrumb.php:4 inc/breadcrumb/breadcrumb.php:7
+#: inc/customize/hantus-blog.php:21
+msgid "1"
+msgstr "1"
+
+#: comments.php:75
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:45 comments.php:65
+msgid "Newer Comments"
+msgstr "Commentaires plus récents"
+
+#: comments.php:44 comments.php:64
+msgid "Older Comments"
+msgstr "Commentaires plus anciens"
+
+#: comments.php:42 comments.php:61
+msgid "Comment navigation"
+msgstr "Navigation des commentaires"
+
+#: 404.php:19
+msgid "Oops.."
+msgstr "Oups…"
+
+#: functions.php:33
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#. Template Name of the theme
+msgid "Homepage Two"
+msgstr "Page d’accueil 2"
+
+#. Template Name of the theme
+msgid "Page Fullwidth"
+msgstr "Pleine largeur"
+
+#: single.php:31 template-parts/content/content-page.php:25
+#: template-parts/content/content-search.php:25
+msgid "Comments"
+msgstr "Commentaires"
+
+#: template-parts/content/content.php:38
+msgid "Pages:"
+msgstr "Pages :"
+
+#. translators: %s: Name of current post.
+#: template-parts/content/content.php:33
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content/content-none.php:26
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Il semblerait que nous ne soyons pas en mesure de trouver votre contenu. Essayez en lançant une recherche."
+
+#: template-parts/content/content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à vos critères de recherche. Veuillez réessayer avec d’autres mots-clés."
+
+#: template-parts/content/content-none.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Prêt·e à publier votre 1er article ? <a href=\"%1$s\">Lancez-vous ici</a>."
+
+#: single.php:47 template-parts/content/content-page.php:37
+#: template-parts/content/content-search.php:41
+#: template-parts/sections/hantus-blog.php:54
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: single.php:29 template-parts/content/content-page.php:23
+#: template-parts/content/content-search.php:23
+#: template-parts/sections/hantus-blog.php:44
+msgid "By"
+msgstr "Par"
+
+#: single.php:28 template-parts/content/content-page.php:22
+#: template-parts/content/content-search.php:22
+#: template-parts/sections/hantus-blog.php:43
+msgid "On"
+msgstr "Le"
+
+#: template-parts/sections/hantus-breadcrumb.php:39
+msgid "Author: %s"
+msgstr "Auteur : %s"
+
+#: template-parts/sections/hantus-breadcrumb.php:35
+msgid "Error 404"
+msgstr "Erreur 404"
+
+#: template-parts/sections/hantus-breadcrumb.php:31
+msgid "Tag Archives: %s"
+msgstr "Archives du mot-clé %s"
+
+#: template-parts/sections/hantus-breadcrumb.php:27
+msgid "Category Archives: %s"
+msgstr "Archives pour la catégorie %s"
+
+#: template-parts/sections/hantus-breadcrumb.php:23
+msgid "Yearly Archives: %s"
+msgstr "Archives annuelles : %s"
+
+#: template-parts/sections/hantus-breadcrumb.php:19
+msgid "Monthly Archives: %s"
+msgstr "Archives mensuelles : %s"
+
+#: template-parts/sections/hantus-breadcrumb.php:15
+msgid "Daily Archives: %s"
+msgstr "Archives quotidiennes : %s"
+
+#: template-parts/sections/hantus-navigation.php:140
+msgid "Search"
+msgstr "Rechercher"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://www.nayrathemes.com/"
+msgstr "https://www.nayrathemes.com/"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://www.nayrathemes.com/hantus-free/"
+msgstr "https://www.nayrathemes.com/hantus-free/"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "Nayra Themes"
+msgstr "Nayra Themes"

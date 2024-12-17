@@ -1,0 +1,542 @@
+/*
+Theme Name: Goldy Jewelry
+Theme URI: https://www.inverstheme.com/theme/goldy-Jewelry/
+Author: inverstheme
+Author URI: https://www.inverstheme.com/
+Description: Goldy Jewelry is a clean, modern, user friendly, responsive and highly customizable WordPress Theme. you’ll easily find the design of this theme impressive and suitable for your Website. This Goldy Jewelry WordPress theme, carries an abundance of crucial features and functionalities. For instance, featured slider, featured Section, About Section, Our Portfolio, Our team Section, Testimonial Slider, Our Services, Our Sponsors, Sticky Header, Social Information, Sidebar, Excerpt Options, and many more. All of these highly customizable features and sections are completely responsive and absolutely easy to customize. 
+Template: goldy-mex
+Version: 1.0.6
+Tested up to: 6.6.2
+Requires PHP: 7.0
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: Goldy Jewelry
+Tags: custom-background, custom-logo, blog, custom-colors, custom-header, custom-menu, two-columns, grid-layout, left-sidebar, news, one-column, right-sidebar, featured-images, threaded-comments, translation-ready
+*/
+
+/*--------------------------------------------------------------
+# header
+--------------------------------------------------------------*/
+.top_bar_info .header_topbar_info .header_logo .site-title a {
+    color: #000000 !important;
+}
+.social_data {
+    display: flex;
+    position: absolute;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    background: var(--skin-color);
+    height: 74px;   
+    padding: 20px 100px 20px 55px;
+}
+.social_data::after {
+    content: '';
+    position: absolute;
+    left: -49px;
+    top: 0px;
+    width: 0;
+    height: 0;
+    border-bottom: 74px solid var(--skin-color);
+    border-left: 50px solid transparent;
+}
+.social_data .social_icon {
+    margin: 0 8px;
+    border-radius: 50%;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.fa-facebook:before,.fa-linkedin:before,.fa-instagram:before,.fa-twitter:before {
+    z-index: 1;
+}
+.social_data .social_icon:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.social_data .social_icon:hover:before {
+    top: 0;
+}
+.social_data .social_icon:nth-child(1):before {
+    background: #3b5999;
+}
+.social_data .social_icon:nth-child(2):before {
+    background: #55acee;
+}
+.social_data .social_icon:nth-child(3):before {
+    background: #d3435f;
+}
+.social_data .social_icon:nth-child(4):before {
+    background: #1da1f2;
+}
+.top_bar_info {
+    padding: 5px 0px;
+}
+.main_site_header{
+    border-bottom: 5px solid var(--skin-color);
+}
+@media only screen and (max-width: 768px) {
+    .social_data {
+        left: 75%;
+        align-items: center;
+        background: #ffffff !important;
+        height: 0px;
+    }
+    .header_social_icon{
+        padding-bottom: 0px !important;
+    }
+    header#masthead h1.site-title {
+        margin: 0px 10px !important;
+    }
+    .featured_slider_disc{
+        font-size: 11px;
+        text-align: center !important;
+    }
+    .hentry-inner .entry-container {
+        align-items: center !important;
+    }
+    .featured_slider_image .owl-prev {
+        left: 5% !important;
+    }
+    .social_data::after{
+        content: none;
+    }
+    .social_icon i {
+        background: #000000 !important;
+        height: 40px !important;
+    }
+    header#masthead p.site-description{
+        margin-left: 10px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Slider
+--------------------------------------------------------------*/
+
+.owl-item.active .entry-container{
+    text-align: left;
+    align-items: flex-start
+}
+@media only screen and (max-width: 768px) {
+    body .featured_slider_image button.owl-prev {
+       top: 40% !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Sticky-menu
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+
+.about_featured_image {
+    width: 30% !important;
+}
+.about_container_data {
+    width: 40% !important;
+    position: fixed;
+    height: 500px;
+    padding: 30px !important;
+}
+.about_section_container:after{
+    content: '';
+    width: 30% ;
+    height: 400px;
+    background-image: url('https://cdn.stocksnap.io/img-thumbs/960w/engagement-ring_V4FAD9T5UZ.jpg');
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about_container_data:before{
+    width: 0px !important;
+    height: 0px !important;
+}
+@media only screen and (max-width: 768px) {
+    .about_section_container:after {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Featured Section
+--------------------------------------------------------------*/
+
+.featured-section_data .featured_content .featured-thumbnail:after{
+    background:none !important;
+}
+.featured-section_data .card-container{
+    gap:40px !important;
+}
+a.section-featured-wrep:before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-transition: all 900ms ease;
+    transform: scale(1, -1);
+    transform-origin: center;
+    z-index: -1;
+}
+a.section-featured-wrep:hover{
+    background: linear-gradient(135deg, #bdbdbd 20%, var(--skin-color)) !important;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Section
+--------------------------------------------------------------*/
+
+i.fa.fa-arrow-right{
+    border: none !important; 
+}
+.fa-window-minimize:before {
+    content: none !important;
+}
+.protfolio_images img {
+    padding: 10px 10px;
+    width: 180px !important;
+    height:200px !important;
+    border-radius: 50%;
+    margin: auto;
+}
+.our_port_containe{
+    filter:none !important;
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+    margin-bottom: 0rem !important;
+}
+.our_portfolio_info .wrappers .parent{
+      border: none !important;
+}
+.our_portfolio_container:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    background-color: var(--skin-color);
+    transform: skewX(-30deg);
+    transform-origin: top right;
+    transition: all .4s ease;
+    z-index: 1;
+    transition: all .4s ease;
+}
+.our_portfolio_container:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    background-color: var(--skin-color);
+    transform: skewX(30deg);
+    transform-origin: top right;
+    transition: all .4s ease;
+    z-index: 1;
+    transition: all .4s ease;
+}
+.our_portfolio_info .our_portfolio_container{
+    border: 2px solid var(--skin-color);
+}
+
+/*--------------------------------------------------------------
+# Appointment Section
+--------------------------------------------------------------*/
+
+.appointment_data  {
+    position: relative;
+    height: 600px;
+}
+.appointment_fields_data {
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+.appointment_featured_image {
+    width: 100% !important;
+}
+.appointment_title h2 {
+    background: #3aafa987;
+    padding: 3px 0px 8px;
+    border-radius: 5px;
+}
+form.appoinment_reset input[type="text"], input[type="email"], input[type="number"], .af_table_data textarea{
+    background: #00000033;
+    border-bottom-color: #ffffff
+}
+@media only screen and (max-width: 768px) {
+    body .appointment_data {
+        display: block !important;
+        padding:10px;
+    }
+    .appointment_fields_data{
+        top: 50%;
+        left: 50%;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .appointment_featured_image{
+            min-height: 570px !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Team Section
+--------------------------------------------------------------*/
+
+.our_team_container_data:hover img{
+    -webkit-animation: imghvr-zoom-out-up 0.4025s linear;
+            animation: imghvr-zoom-out-up 1s linear;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+@-webkit-keyframes imghvr-zoom-out-up {
+    50% {
+        -webkit-transform: scale(0.8) translateY(0%);
+                transform: scale(0.8) translateY(0%);
+        opacity: 0.5;
+    }
+    100% {
+        -webkit-transform: scale(0.8) translateY(-150%);
+                transform: scale(0.8) translateY(-150%);
+        opacity: 0.5;
+    }
+}
+@keyframes imghvr-zoom-out-up {
+    50% {
+        -webkit-transform: scale(0.8) translateY(0%);
+                transform: scale(0.8) translateY(0%);
+        opacity: 0.5;
+    }
+    100% {
+        -webkit-transform: scale(0.8) translateY(-150%);
+                transform: scale(0.8) translateY(-150%);
+        opacity: 0.5;
+    }
+}
+
+/*--------------------------------------------------------------
+# testimonials Section
+--------------------------------------------------------------*/
+
+.our_testimonials_container{
+    flex-direction: column;
+}
+.testimonials_title{
+    flex-direction: column;
+}
+.our_testimonial_section .testinomial_owl_slider .testimonials_title h4{
+    padding-left:0px !important;
+    margin-left:0px !important;
+    border-left:none !important;
+    background: #ffa50054;
+    width: 180px;
+    padding: 2px 5px;
+}
+.testinomial_description{
+    border:none !important;
+    padding: 10px !important;
+}
+.testimonials_content{
+    text-align: center !important;
+}
+.image_testimonials img{
+    filter: none !important;
+}
+.testimonials_image .image_testimonials img{
+    border-radius: 100%;
+    height: 150px !important;
+}
+.our_testimonial_section .our_testimonial_info .owl-carousel .owl-nav button.owl-prev, .our_testimonial_section .our_testimonial_info .owl-carousel .owl-nav button.owl-next{
+    font-size: 35px !important;
+}
+   .our_sponsors_contain .owl-nav button.owl-prev, .our_sponsors_section .our_sponsors_contain .owl-nav button.owl-next{
+    font-size: 35px !important
+}
+.image_testimonials {
+    border-radius: 50%;
+    padding: 2.5px;
+    border: 2.5px dashed #000000;
+}
+  
+/*--------------------------------------------------------------
+# Sponsors Section
+--------------------------------------------------------------*/
+
+.our_sponsors_main:before {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    top: 0;
+    right: 0;
+    background: linear-gradient(225deg, #ffffff 45%, #aaa 50%, #ccc 56%, white 80%);
+    transition-duration: 0.3s;
+}
+.our_sponsors_main:hover:before, .our_sponsors_main:focus:before, .our_sponsors_main:active:before {
+    width: 45px;
+    height: 45px;
+}
+
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+
+.widget_section_one, .widget_section_two, .widget_section_three{
+    border-radius:0px !important;
+    border: 2px solid var(--skin-color);
+    background-color:#ffffff !important;
+    color: #000000 !important;
+}
+.widget_section_two{
+    position: relative;
+    top: 50px;
+}
+@media only screen and (max-width: 768px) {
+    .widget_section_two {
+        top: 0px;
+        position: relative;
+    }
+}
+
+/*--------------------------------------------------------------
+# Funfact Section
+--------------------------------------------------------------*/
+
+.goldy-funfact-icon i{
+    border-radius: 50%;
+    animation: pulse 1s infinite;
+    text-shadow: 1px 1px 0px black;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.heading_main_title h2::after{
+    content: none !important;
+}
+
+/*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Scrolling-btn
+--------------------------------------------------------------*/
+.fa-angle-up {
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom: 15px solid var(--skin-color);
+    position: relative;
+    top: -12px;
+}
+.fa-angle-up:after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top: 15px solid var(--skin-color);
+}
+
+/*--------------------------------------------------------------
+# Prev & Next
+--------------------------------------------------------------*/
+
+.featured_slider_image button.owl-prev{
+    top: 50% !important;
+}
+.featured_slider_image .owl-prev {
+    left:92% ;
+}
+.owl-prev, .owl-next{
+    border: 1px solid var(--skin-color) !important;
+}
+.our_testimonial_section .owl-prev, .our_testimonial_section .owl-next{
+    top: 97% ;
+}
+.our_testimonial_section button.owl-prev {
+    left: 45% ;
+}
+.our_testimonial_section button.owl-next {
+    right: 45% ;
+}
+.our_testimonial_section{
+    padding: 40px 10px 60px !important;
+}
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+
+.buttons{
+    border:none !important;
+    width: 110px;
+    text-align: center;
+    cursor:pointer;
+    transition:800ms ease all;
+}
+.buttons:hover,.nav-previous a:hover,.nav-next a:hover,.wp-block-search__button:hover{
+    background:#fff;
+    color: var(--skin-color);
+}
+.buttons:before, .buttons:after,.nav-previous a:before,.nav-previous a:after,.nav-next a:before,.nav-next a:after,.wp-block-search__button:before,.wp-block-search__button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    transition:400ms ease all;
+}
+.buttons:after,.nav-previous a:after,.nav-next a:after,.wp-block-search__button:after{
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+.buttons:hover:before, .buttons:hover:after,.nav-previous a:hover:before, .nav-previous a:hover:after,.nav-next a:hover:before, .nav-next a:hover:after,.wp-block-search__button:hover:before,.wp-block-search__button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
+.buttons::after,.nav-previous a::after,.nav-next a::after,.wp-block-search__button::after{
+    background-color: var(--skin-color) !important;
+}
+.buttons::before,.nav-previous a::before,.nav-next a::before,.wp-block-search__button::before{
+    background-color: var(--skin-color) !important;
+}
+.wp-block-search__button:hover{
+    background-color: #ffffff !important;
+}
+
+
+
