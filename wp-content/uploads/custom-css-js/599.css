@@ -1,0 +1,86 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Centrer le formulaire */
+#wpforms-form-431 {
+    max-width: 600px; /* Largeur maximale */
+    margin: 0 auto; /* Centrer horizontalement */
+    padding: 20px;
+    background-color: #f9f9f9; /* Fond clair */
+    border: 2px solid #ccc; /* Bordure gris clair */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 4px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+}
+
+/* Cacher le message JavaScript désactivé */
+.wpforms-error-noscript, 
+#wpforms-error-noscript {
+    display: none !important; /* Masquer le message */
+}
+
+/* Supprimer le contour bleu autour de l'input email au focus */
+#wpforms-431-field_2:focus {
+    outline: none !important;  /* Supprimer le contour bleu sur l'input */
+    border-color: #ccc !important;  /* Maintenir la bordure grise */
+    box-shadow: none !important;  /* Supprimer l'ombre au focus */
+}
+
+/* Styliser les champs du formulaire */
+.wpforms-field {
+    margin-bottom: 15px; /* Espacement entre les champs */
+}
+
+/* Styliser les labels */
+.wpforms-field-label {
+    font-size: 14px; /* Taille de la police */
+    font-weight: bold;
+    margin-bottom: 5px; /* Espacement sous le label */
+    color: #333; /* Couleur du texte */
+}
+
+/* Styliser les champs de texte et email */
+.wpforms-field input, .wpforms-field textarea {
+    width: 100%;
+    padding: 10px; /* Espacement intérieur des champs */
+    border: 1px solid #ccc; /* Bordure claire */
+    border-radius: 5px; /* Coins arrondis */
+    box-sizing: border-box; /* Inclut les bordures dans la largeur */
+    font-size: 14px; /* Taille du texte */
+}
+
+/* Styliser le bouton de soumission */
+.wpforms-submit {
+   
+    color: white; /* Texte blanc */
+    padding: 12px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase; /* Texte en majuscules */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Transition de couleur */
+}
+
+/* Supprimer l'effet de focus sur le bouton de soumission */
+.wpforms-submit:focus {
+    outline: none !important; /* Supprimer le contour bleu autour du bouton */
+    box-shadow: none !important; /* Supprimer l'ombre autour du bouton */
+}
+
+.wpforms-submit:hover {
+    background-color: #f00c8c; /* Couleur au survol */
+}
+
+/* Désactiver le redimensionnement des champs textarea */
+.wpforms-field textarea {
+    resize: none; /* Désactive le redimensionnement */
+}
+
+/* Responsivité pour écrans mobiles */
+@media (max-width: 768px) {
+    #wpforms-form-431 {
+        padding: 10px; /* Moins de padding sur mobile */
+        max-width: 100%; /* Largeur à 100% sur mobile */
+    }
+}
+</style>
+<!-- end Simple Custom CSS and JS -->
